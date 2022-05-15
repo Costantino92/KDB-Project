@@ -1,0 +1,114 @@
+.custom-row div {
+  flex: 1 1 100%;
+}
+
+.card {
+  border: none;
+  perspective: 1000px;
+}
+
+.custom-work {
+  min-height: 350px;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: linear 0.4s;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+.back span {
+  font-size: 20px;
+}
+
+.card:hover .custom-work {
+  transform: rotateY(180deg);
+  transition: linear 0.4s;
+}
+
+.custom-work div {
+  font-size: xx-large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.custom-work h2 {
+  inline-size: 200px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.border-top {
+  position: absolute;
+  top: 35%;
+  border-top-width: 3px !important;
+  border-color: #fa2905 !important;
+  width: 150px;
+}
+
+.front,
+.back {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/Lavorazioni/lavorazioni-card-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.front2,
+.back2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/Lavorazioni/lavorazioni-card-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.front3,
+.back3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/Lavorazioni/lavorazioni-card-3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.front4,
+.back4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/Lavorazioni/lavorazioni-card-4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.front5,
+.back5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/Lavorazioni/lavorazioni-card-5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.front6,
+.back6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/Lavorazioni/lavorazioni-card-6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,21 @@
+.border-top {
+  position: absolute;
+  border-top-width: 3px !important;
+  border-color: #fa2905 !important;
+  width: 150px;
+  left: 46%;
+}
+.text-color {
+  color: #103368;
+  padding-top: 10px;
+  height: 400px;
+}
+.custom-container {
+  width: 60%;
+  font-size: large;
+  font-weight: 700;
+}
+.card {
+  width: 350px;
+  height: 450px;
+}

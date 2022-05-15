@@ -1,0 +1,25 @@
+.img {
+  width: 100vw;
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/sfondo-chi-siamo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.display-1 {
+  width: 500px;
+  font-weight: 400;
+}
+.chiSiamoDiv {
+  color: #103368;
+}
+.chiSiamoDiv p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bg-btn {
+  background-color: #103368;
+  color: white;
+}

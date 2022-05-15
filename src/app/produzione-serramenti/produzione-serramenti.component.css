@@ -1,0 +1,13 @@
+.productionContainer {
+  background-color: #eeeff0;
+}
+.border-top {
+  position: absolute;
+  border-top-width: 3px !important;
+  border-color: #fa2905 !important;
+  width: 150px;
+}
+
+.textColor {
+  color: #103368;
+}
